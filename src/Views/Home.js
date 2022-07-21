@@ -6,11 +6,10 @@ import LinkBar from "../components/LinkBar";
 import Card from "../components/Card";
 import Footer from "../components/footer";
 import img from "../assets/illustration-working.svg";
-
+import brandIcon from "../assets/icon-brand-recognition.svg";
+import detailedIcon from "../assets/icon-detailed-records.svg";
+import customizabeIcon from "../assets/icon-fully-customizable.svg";
 function Home() {
-  const getshortenhistory = () => {
-    return <div>hi</div>;
-  };
   return (
     <div>
       <header>
@@ -49,6 +48,7 @@ function Home() {
             body={
               "Boost your brand recognition with each click. Generic links dont mean a thing. Branded links help instil confidence in your content."
             }
+            icon={brandIcon}
           />
 
           <Card
@@ -56,6 +56,7 @@ function Home() {
             body={
               "Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions."
             }
+            icon={detailedIcon}
           />
 
           <Card
@@ -63,6 +64,7 @@ function Home() {
             body={
               "Improve brand awareness and content discoverability through customizable links, supercharging audience engagement."
             }
+            icon={customizabeIcon}
           />
         </div>
       </div>

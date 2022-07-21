@@ -2,6 +2,10 @@ import React from "react";
 import { CDBFooter, CDBFooterLink, CDBBox, CDBBtn, CDBIcon } from "cdbreact";
 import logo from "../assets/logo.svg";
 import "../styles/main.css";
+import fbIcon from "../assets/icon-facebook.svg";
+import twitter from "../assets/icon-twitter.svg";
+import instagram from "../assets/icon-instagram.svg";
+import pinterest from "../assets/icon-pinterest.svg";
 export default function Footer() {
   return (
     <div className="footer">
@@ -51,15 +55,26 @@ export default function Footer() {
             </CDBBox>
             <CDBBox>
               <CDBBox display="flex" className="mt-4">
-                <CDBBtn flat color="dark">
-                  <CDBIcon fab icon="facebook-f" />
-                </CDBBtn>
-                <CDBBtn flat color="dark" className="mx-3">
-                  <CDBIcon fab icon="twitter" />
-                </CDBBtn>
-                <CDBBtn flat color="dark" className="p-2">
-                  <CDBIcon fab icon="instagram" />
-                </CDBBtn>
+                <img
+                  alt="logo"
+                  src={fbIcon}
+                  style={{ width: "70%", height: "10%", margin: "10px" }}
+                />
+                <img
+                  alt="logo"
+                  src={twitter}
+                  style={{ width: "70%", height: "10%", margin: "10px" }}
+                />
+                <img
+                  alt="logo"
+                  src={instagram}
+                  style={{ width: "70%", height: "10%", margin: "10px" }}
+                />
+                <img
+                  alt="logo"
+                  src={pinterest}
+                  style={{ width: "70%", height: "10%", margin: "10px" }}
+                />
               </CDBBox>
             </CDBBox>
           </CDBBox>

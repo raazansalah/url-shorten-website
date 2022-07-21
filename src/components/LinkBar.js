@@ -13,6 +13,12 @@ function LinkBar() {
   const shorten = useRef([]);
   let originalList;
   let shortenList;
+  useEffect(() => {
+    console.log("hi");
+    originalList = localStorage.getItem("original");
+    shortenList = localStorage.getItem("shorten");
+  }, []);
+
   const clickHandle = () => {
     if (link === "") {
       seterror("please add a link");

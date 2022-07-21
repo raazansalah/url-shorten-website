@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100&display=swap');
 body {
     font-family: "Poppins";
+    overflow: scroll;
   }
 header{
     padding: 0px 8%;
@@ -63,7 +64,7 @@ header{
 .p-2:focus{background-color:hsl(257, 27%, 26%) ;}
 .details-container{
     background-color:hsl(0, 0%, 89%);
-    padding: 100px 8% 0px 8%;
+    padding: 100px 8% 100px 8%;
     width: 100%;
    
     
@@ -112,6 +113,7 @@ header{
 .footer-a{
     color: rgb(245, 245, 245) !important;;
     display: block;
+    text-decoration: none;
 }
 .footer-a:hover{
     color:hsl(180, 66%, 49%) !important ;
@@ -132,6 +134,17 @@ header{
 
 h3{
     font-weight: 600;
+}
+.circle{
+    background-color:hsl(257, 27%, 26%) ;
+    display: flex;
+    width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30px 
+    
 }
 @media only screen and (max-width: 1100px) {
     .header-cont{
