@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100&display=swap');
+body {
+    font-family: "Poppins";
+  }
+header{
+    padding: 0px 8%;
+}
+.header-cont{
+    display: flex;
+    align-content: flex-start;
+    margin-bottom: 80px;
+}
+.flex-item{
+    flex: 50%;
+    height: 50%;
+}
+.flex1{
+    text-align: left;
+    padding: 0px 0px 0px 8%;
+  
+}
+.flex2{
+    text-align: right;
+    padding: -90px;
+
+}
+
+.tittle{
+    font-weight: 700;
+    font-size: 70px;
+    margin: 0;
+}
+
+.inputtext-container{
+    background-color: hsl(257, 27%, 26%);
+    text-align: center;
+    background-image: url(../assets/bg-shorten-desktop.svg);
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 35px;
+    margin: -160px auto 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-field{
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    display: inline;
+    margin-right: 15px;
+}
+.shorten-btn{
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    height: 50px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    color: white;
+}
+.p-2:focus{background-color:hsl(257, 27%, 26%) ;}
+.details-container{
+    background-color:hsl(0, 0%, 89%);
+    padding: 100px 8% 0px 8%;
+    width: 100%;
+   
+    
+   
+}
+.details-header{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.cards-container{
+    width: 100%;
+    display: flex;
+    height: 75%;
+    justify-content: space-between;
+}
+.row-3{
+    color: white;
+    text-align: center;
+    background-color: hsl(257, 27%, 26%);
+    padding: 50px 0px;
+    background-image: url(../assets/bg-boost-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.btn{
+    background-color: hsl(180, 66%, 49%);
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 30px;
+    margin: 10px;
+
+}
+.btn:hover{
+    background-color: hsla(180, 66%, 49%, 0.568);
+    color: white;
+
+}
+.btn-login{
+    background-color: white;
+    color: black;
+}
+
+.footer-a{
+    color: rgb(245, 245, 245) !important;;
+    display: block;
+}
+.footer-a:hover{
+    color:hsl(180, 66%, 49%) !important ;
+}
+
+.footer{
+ color: white;
+ width: 100%;
+  background-color: rgb(36, 36, 36);
+}
+.linkbar{
+    background-color:white ;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    
+}
+
+h3{
+    font-weight: 600;
+}
+@media only screen and (max-width: 1100px) {
+    .header-cont{
+        
+        flex-direction: column-reverse;
+      
+    }
+    .tittle{
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .text-field{
+        width: 100%;
+    }
+    .shorten-btn{
+        width: 100%;
+        margin-top: 7px;
+    }
+    .cards-container{
+        align-items: center;
+        flex-direction: column;
+    }
+    .d-flex{
+        flex-direction: column;
+    }
+  }
