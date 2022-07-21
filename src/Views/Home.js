@@ -60,6 +60,7 @@ function Home() {
           />
 
           <Card
+            style={{ position: "relative" }}
             title={"Fully Customizable"}
             body={
               "Improve brand awareness and content discoverability through customizable links, supercharging audience engagement."

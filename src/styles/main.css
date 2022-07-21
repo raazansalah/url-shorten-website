@@ -65,10 +65,7 @@ header{
 .details-container{
     background-color:hsl(0, 0%, 89%);
     padding: 100px 8% 100px 8%;
-    width: 100%;
-   
-    
-   
+    width: 100%;   
 }
 .details-header{
     text-align: center;
