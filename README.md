@@ -48,3 +48,8 @@ $ npm start
 - react-copy-to-clipboard
 - axios
 - cdbreact
+
+### Deployment
+
+> using Vercel
+> [Shorten Website](https://url-shorten-website.vercel.app/)
