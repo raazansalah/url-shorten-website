@@ -1,4 +1,5 @@
 # Url Shorten Website
+This website allow user to enters a long url and shorten it with smaller one ,user can copy it and navigate to this original url 
 
 ## About The Project
 
